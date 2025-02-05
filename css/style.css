@@ -36,7 +36,7 @@ body {
 	height: 100%;
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h1,
@@ -78,8 +78,8 @@ h6 {
 p {
 	font-size: 15px;
 	font-family: "Poppins", sans-serif;
-	color: #707070;
-	font-weight: 300;
+	color: #2c2c2c;
+	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
@@ -389,6 +389,7 @@ ol {
 	font-weight: 600;
 	padding: 5px 0;
 	position: relative;
+	text-decoration: none;
 }
 
 .header__menu ul li a:after {
