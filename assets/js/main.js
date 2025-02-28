@@ -1,7 +1,7 @@
 (function($) {
-
+	
 	var	$window = $(window),
-		$body = $('body');
+		$body = $('body'); 
 
 	// Breakpoints.
 		breakpoints({
