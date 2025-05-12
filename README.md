@@ -1,51 +1,48 @@
-## [Landwind - Tailwind CSS Landing Page](https://demo.themesberg.com/landwind/)
+# ![Future Company](/favicon.ico) Future Company 
 
-<a href="https://demo.themesberg.com/landwind/" rel="Tailwind CSS Landing Page">![Tailwind CSS Landing Page Demo - Flowbite](https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/thumbnail.png)</a>
+Bem-vindo ao repositório do código-fonte do site da Future Company.
 
-Landwind is a free and open-source landing page built for SaaS and product websites based on the Tailwind CSS utility-first framework and the Flowbite Component Library featuring a hero section, customer logos, feature sections, testimonials, pricing cards, FAQ section, pre-footer CTA button and a footer.
+O site utiliza HTML simples e CSS Tailwind otimizado.
 
-Built with ❤️ by [Themesberg](https://themesberg.com) based on Tailwind CSS and Flowbite.
 
-## Live preview
+Se é a primeira vez que você está editando o site, você deverá ter o <a href="#requisitos"><img src="https://img.shields.io/badge/Node%20JS-339933?style=flat-square&logo=node.js&logoColor=white"/></a>  instalado, então abrir um terminal de comando no Gitbash ou Powershell e digitar:
 
-Check out a live demo by clicking here:
-
-🔗 [Landwind live preview](https://demo.themesberg.com/landwind/) (🌗 switch on dark mode using your computer preferences)
-
-## Getting started
-
-Make sure that you have [Node.js](https://nodejs.org/en/), [Tailwind CSS](https://tailwindcss.com/docs/installation) and [Flowbite](https://flowbite.com/docs/getting-started/quickstart/) installed.
-
-1. Run `npm install` inside your terminal
-
-2. Watch for files and compile Tailwind CSS + Flowbite:
-
-```
-npx tailwindcss -i ./input.css -o ./output.css --watch
+```powershell
+npm install
 ```
 
-3. To deploy you will only need the `index.html` file and the `output.css` styles.
+Então é recomendado realizar as ações sugeridas em caso de alterações nas bibliotecas. O mais provavel que pode acontecer é realizar uma auditoria rodando:
 
-Alternatively you can also just directly copy this code into your own projects, whether you use Laravel, React, Vue.js or other frameworks.
+```powershell
+npm audit fix
+```
 
-## Figma design file
+Ao editar, para salvar seu tempo, você pode usar a extensão **Live Server**, disponível no marketplace do Visual Studio Code.
 
-We have also built a free Figma design file that you can duplicate from the community website:
+No ambiente de edição, você deverá rodar:
 
-👉 [Landwind - Figma Landing Page](https://www.figma.com/community/file/1125744163617429490)
+```powershell
+npx tailwindcss -i assets/input.css -o assets/output.css --watch
+```
 
-## Built with Tailwind CSS and Flowbite
+Com esse comando, as classes CSS ficarão limpas de excessos, como classes não utilizadas.
 
-This landing page was built using the following technologies:
+Ao final da edição, você só precisará do `/assets/output.css`
 
-- 🔗 [Tailwind CSS](https://tailwindcss.com/)
-- 🔗 [Flowbite Library](https://flowbite.com/docs/getting-started/introduction/)
-- 🔗 [Flowbite Blocks](https://flowbite.com/blocks/)
+---
 
-## About us
+Qualquer dúvida, você pode entrar em contato comigo por e-mail: 
 
-We build free and premium themes with technologies such as Bootstrap, React, Tailwind, Vue, Laravel and more over at [Themesberg](https://themesberg.com).
+> andreriffen6@gmail.com
 
-## License
+---
 
-This project is open source under the MIT license.
+### 🐘 Autor
+
+- 2025 ©️ **Andre Riffen** - [Perfil GitHub](https://github.com/andreriffen)
+
+### 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+---

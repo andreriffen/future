@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.z-99{
+    z-index: 99;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.h2-m{
+    margin-bottom: 2rem;
+}
+
+.btn-lg{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-circle{
+    border-radius: 150px;
+}
+
+.icons{
+    padding-top: 2rem;
+}
+
+.hero{
+    padding-top: 8rem;
+}
+
+@media (min-width: 640px) {
+    .hero{
+        padding-top: 10rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .hero{
+        padding-top: 12rem;
+    }
+}

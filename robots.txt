@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /images/
+Disallow: /output.css
+Disallow: /preline.js
+Disallow: /404.html
+Disallow: /sitemap.xml
+
+Sitemap: https://futurecompany.com/sitemap.xml
